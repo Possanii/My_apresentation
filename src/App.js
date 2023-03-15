@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <body>
+        <main className="content--container">
+          <section className="content-section--container">
+            <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
+            <p>Olá! Sou o Gustavo Piovesan, desenvolvedor Front-end com especialidade em React, HTML e CSS.</p>
+            <div className="button--container">
+              <a href="https://www.linkedin.com/in/gustavo-piovesan/">Linkedin</a>
+              <a href="https://github.com/Possanii">Github</a>
+            </div>
+          </section>
+          <img src="https://i.pinimg.com/280x280_RS/cb/b2/80/cbb280fa8c687cf3b137df878bf82d08.jpg" alt="Foto" />
+        </main>
+      </body>
   );
 }
 
