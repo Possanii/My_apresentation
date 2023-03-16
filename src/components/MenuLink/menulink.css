@@ -1,0 +1,11 @@
+.link-menu--container{
+    font-size: 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.link-selector--container {
+    font-size: 20px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}

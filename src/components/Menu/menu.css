@@ -1,0 +1,9 @@
+.nav--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 6vh;
+    gap: 30px;
+}
+

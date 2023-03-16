@@ -1,0 +1,20 @@
+.Botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 375px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Botao:hover {
+    background-color: #272727;
+    color: var(--secondary-color);
+}
