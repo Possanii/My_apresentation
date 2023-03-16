@@ -2,9 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    height: 88vh;
+    gap: 3rem;
     color: var(--secondary-color);
+    padding: 5% 15%;
+}
+
+.rato--image {
+    width: 50%;
 }
 
 .content--container strong {
@@ -12,16 +16,40 @@
 }
 
 .content--container h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .content--container p {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .content-section--container {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+    .content--container {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        padding: 5%;
+    }
+
+    .content--container h1 {
+        font-size: 1.5rem;
+    }
+
+    .content--container p {
+        font-size: 1rem;
+    }
+
+    .rato--image {
+        width: auto
+    }
+
+    .content-section--container {
+        width: auto;
+    }
 }
